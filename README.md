@@ -18,6 +18,17 @@ main.tf --> primary configurations
 
 variables.tf --> have variable 
 
+###  Variable block in terraform access three parameters. 
+default = value
+type = string (accept single value, which can be alphanumeric, that is alphabets and numbers) 
+number = accepts single value of a number +ve or -ve
+
+bool = true/false 
+
+any = Default valu    
+description = ""
+####
+
 output.tf --> output values that you want to display 
 
 provder.tf --> aws 
