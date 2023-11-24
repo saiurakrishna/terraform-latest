@@ -50,17 +50,27 @@ terraform apply --> action --> {
 
 terraform destory ---> delete 
 
-##Commands##
+Commands
 terraform validate
+
 terraform fmt
+
 terraform show
+
 terraform show -json
+
 terraform providers
+
 terraform output
+
 terraform state pull
+
 terraform state list
+
 terraform state rm aws_instance.web2
+
 terraform state list
+
 terraform import aws_instance.web3 i-045b5e67195b79ed3
 
 
